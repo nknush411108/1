@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的前端網站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">MyWebsite</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">首頁</a></li>
+                    <li><a href="#about">關於</a></li>
+                    <li><a href="#services">服務</a></li>
+                    <li><a href="#contact">聯絡</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>歡迎來到我的網站</h1>
+                <p>這是一個使用純 HTML、CSS 和 JavaScript 建立的現代化網站</p>
+                <button class="btn" id="ctaBtn">開始探索</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>關於我們</h2>
+                <div class="about-content">
+                    <p>我們致力於提供優質的服務和解決方案。這個網站展示了使用原生 HTML、CSS 和 JavaScript 的強大功能。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>我們的服務</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Web 設計</h3>
+                        <p>創建美觀且功能性的網頁設計</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>前端開發</h3>
+                        <p>使用最新技術開發動態網站</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>響應式設計</h3>
+                        <p>適配所有設備的完美界面</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>聯絡我們</h2>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" placeholder="您的名字" required>
+                    <input type="email" placeholder="您的信箱" required>
+                    <textarea placeholder="您的訊息" rows="5" required></textarea>
+                    <button type="submit" class="btn">送出</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 我的網站。版權所有。</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
